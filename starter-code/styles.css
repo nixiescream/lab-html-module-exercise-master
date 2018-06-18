@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Source Sans Pro','Lucida Grande', sans-serif;
+}
+
+.clearfix { 
+    clear: both; 
+}
+
+.col { 
+    float: left;
+}
+
+.col-middle { 
+    margin: 0 5%; 
+}
+
+.col-3 { 
+    width: 33%; 
+}
+
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding: 10px;
+    height: 20px;
+  }
+  
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+
+.top-left{
+    display: inline-block;
+}
+
+.heart{
+    padding: 0 15px;
+}
+.top-links {
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+  
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header{
+    color: white;
+    background-color: rgb(32, 101, 136);
+    background-image: url('images/city-scape.svg');
+    height: 500px;
+}
+
+header .search-bar{
+    height: 70px;
+    width: 100%;
+}
+
+.npm-logo{
+    height: 50px;
+    margin: 20px;
+    float: left;
+}
+
+.search-input::placeholder{
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+}
+
+.search-input{
+    width: 73%;
+    height: 50px;
+    margin: 20px 0;
+    background-color: rgb(31, 82, 111);
+    border: 0.2px solid rgba(255,255,255,0.2);
+    color: white;
+    font-family: "Source Sans Pro";
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.search-icon{
+    width: 50px;
+    height: 50px;
+    margin-left: -5px;
+    background-color: rgb(31, 82, 111);
+    border: 0.2px solid rgba(255,255,255,0.2);
+    color: white;
+    font-size: 20px;
+}
+
+.signup{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    display: inline-block;
+    font-weight: 300;
+}
+
+.bear-logo{
+    height: 40px;
+    float: right;
+    margin: 25px 25px 20px 0;
+}
+
+header .amazing{
+    width: 600px;
+    margin: 0 auto;
+    float: left;
+    padding: 50px;
+}
+
+.amazing h1{
+    font-weight: 400;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.amazing p{
+    font-size:20px;
+    padding: 0 30px 30px 10px;
+}
+
+.link-btn{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-radius: 50px;
+    font-weight: 300;
+}
+
+.amazing .link-btn{
+    background-color: rgb(240, 146, 51);
+    width: 150px;
+    /*margin: 40px auto 0 auto;*/
+    padding: 10px;
+    margin-left: 10px;
+    font-size:20px;
+}
+
+#collaboration{
+    background-color: rgb(39, 53, 71);
+    color: white;
+}
+
+#collaboration img{
+    margin: 100px 0 100px 300px;
+}
+
+#collaboration-container{
+    margin: 0 auto;
+    float: right;
+    padding: 95px 250px 0 0;
+}
+h2{
+    font-weight: 300;
+    font-size: 35px;
+}
+
+#collaboration-container h2{
+    width: 400px;
+}
+
+#collaboration-container ul{
+    line-height: 45px;
+    font-size: 18px;
+    padding: 0 0 10px 24px;
+}
+
+#collaboration-container .link-btn{
+    background-color: rgb(203, 56, 55);
+    width: 150px;
+    /*margin: 40px auto 0 auto;*/
+    padding: 10px;
+    margin: 0 0 10px 10px;
+    font-size:20px;
+}
+
+#collaboration .link{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
+#whatisnpm{
+    height: 500px;
+    background-image: url('images/forklift.svg');
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+#whatisnpm-container{
+    position: absolute;
+    margin: 60px 0 0 300px;
+    padding: 50px;
+}
+
+#whatisnpm-container h2{
+    padding-bottom: 15px;
+    width: 400px;
+}
+
+#whatisnpm-container p{
+    width: 320px;
+}
+
+#whatisnpm .link-btn{
+    background-color: rgb(49, 68, 88);
+    width: 150px;
+    /*margin: 40px auto 0 auto;*/
+    padding: 10px;
+    margin: 30px 0 10px 10px;
+    font-size:20px;
+}
+
+#canyoumake{
+    margin: 50px;
+    background-color: white;
+}
+
+#canyoumake #content{
+    margin-top: 70px;
+}
+
+#canyoumake h2{
+    text-align: center;
+    margin: 10px 0 20px 0;
+    color: rgb(83, 88, 98);
+}
+
+#canyoumake h3{
+    text-align: center;
+    margin: 10px;
+    color: rgb(83, 88, 98);
+    font-weight: 600;
+}
+
+#canyoumake p{
+    text-align: center;
+    font-weight: 400;
+    color: rgb(135, 145, 156);
+    font-size: 17px;
+}
+
+#canyoumake a{
+    text-decoration: none;
+    color: rgb(208, 74, 73);
+}
+
+#box{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+
+}
+
+.service-box{
+    text-align: center;
+}
+
+.text{
+    width: 230px;
+    margin: 0 auto;
+}
